@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin : 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 1rm 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+    color: black;
+}
+.username h1 {
+    font-size: 1.5rem;
+    color: rgb(0, 179, 255);
+    margin-left: 20px;
+    font-weight: lighter;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.4s ease;
+}
+
+.nav-links a:hover {
+    background-color: black;
+    color: white;
+}
+
+.left {
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: black;
+}
+
+.left-content h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+     margin-left: 50px;
+       max-width: 50%;
+    }
+.left-content h2.blue {
+     margin-left: 50px;
+    color: rgb(0, 179, 255);
+}
+
+.left-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    margin-left: 50px;
+        max-width: 50%;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+     margin-left: 50px;
+     
+}
+
+.btn {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-secondary {
+    background-color: rgb(0, 179, 255);
+    color: white;
+    border-radius: 4px;
+    border: 2px solid white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+.btn-secondary:hover {
+    background-color: rgb(14, 133, 238);
+    color:white; 
+    transform: translateY(-2px);
+}
+
+.right {
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
