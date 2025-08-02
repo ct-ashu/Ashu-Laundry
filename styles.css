@@ -17,7 +17,6 @@ body {
 }
 
 .header {
-    background-color: white;
     color: rgb(0, 0, 0);
     padding: 1rm 0;
     position: fixed;
@@ -81,7 +80,7 @@ body {
     font-weight: bold;
     letter-spacing: 2px;
      margin-left: 50px;
-       max-width: 50%;
+       max-width: 75%;
     }
 .left-content h2.blue {
      margin-left: 50px;
@@ -92,7 +91,7 @@ body {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     margin-left: 50px;
-        max-width: 50%;
+        max-width: 75%;
 }
 
 .hero-buttons {
