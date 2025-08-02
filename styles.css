@@ -20,7 +20,7 @@ body {
     color: rgb(0, 0, 0);
     padding: 1rm 0;
     position: fixed;
-    top: 0;
+    top: 10px;
     width: 100%;
     z-index: 1000;
 }
