@@ -431,8 +431,12 @@ body {
     }
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 main, .left {
-    margin-top: 80px; /* Adjust this value to match your .header height */
+    margin-top: 80px; /* Adjust to match your header height */
 }
 
 @media (max-width: 800px) {
